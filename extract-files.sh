@@ -17,6 +17,15 @@ function blob_fixup() {
                 "${PATCHELF}" --add-needed "libshims_gui.so" "${2}"
             fi
             ;;
+        vendor/lib/libmmcamera2_iface_modules.so)
+            # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
+            sed -i -e 's|\xfd\xb1\x20\x68|\xfd\xb1\x00\x20|g' "${2}"
+            PATTERN_FOUND=$(hexdump -ve '1/1 "%.2x"' "${2}" | grep -E -o "fdb10020" | wc -l)
+            if [ $PATTERN_FOUND != "1" ]; then
+                echo "Critical blob modification weren't applied on ${2}!"
+                exit;
+            fi
+            ;;
     esac
 }
 
