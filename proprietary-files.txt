@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.13.0.OCLMIXM:user/release-keys
+# jasmine Package version: jasmine V11.0.8.0.QDIMIXM
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -537,7 +538,6 @@ vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
-vendor/lib/libMiWatermark.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_dcrf.so
@@ -668,6 +668,10 @@ vendor/etc/camera/s5k5e8_ofilm_factory_chromatix.xml
 vendor/etc/camera/csidtg_chromatix.xml
 vendor/etc/camera/s5k4h7_ofilm_india_chromatix.xml
 vendor/etc/camera/s5k5e8_ofilm_riva_chromatix.xml
+
+# Camera watermark - from jasmine
+vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
+vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
 # Firmwares
 vendor/firmware/aw87329_abrcv.bin
