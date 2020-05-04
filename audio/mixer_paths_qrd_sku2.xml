@@ -94,6 +94,8 @@
     <ctl name="DEC3 MUX" value="ZERO" />
     <ctl name="DEC4 MUX" value="ZERO" />
     <ctl name="SpkrMono VISENSE Switch" value="0" />
+    <ctl name="ADC1_INP1 Switch" value="0" />
+
     <!-- bug 391554 - C3G AW87329 audio pa bring up wt tsx  begin -->
     <ctl name="Ext_Speaker_Amp" value="Off" />
     <!-- bug 391554 - end -->
@@ -1029,6 +1031,7 @@
 
     <!-- These are actual sound device specific mixer settings -->
     <path name="adc1">
+        <ctl name="ADC1_INP1 Switch" value="1" />
         <ctl name="DEC1 MUX" value="ADC1" />
     </path>
 
@@ -1077,6 +1080,7 @@
    </path>
 
     <path name="speaker-mic">
+        <ctl name="ADC1_INP1 Switch" value="1" />
         <ctl name="ADC1 Volume" value="6" />
         <ctl name="DEC2 MUX" value="ADC1" />
         <ctl name="ADC3 Volume" value="6" />
@@ -1086,6 +1090,7 @@
     </path>
 
 	<path name="first-mic">
+        <ctl name="ADC1_INP1 Switch" value="1" />
         <ctl name="ADC1 Volume" value="2" />
         <ctl name="DEC1 MUX" value="ADC1" />
     </path>
