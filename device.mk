@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
     libshims_gui \
     libwui
 
+PRODUCT_PACKAGES += \
+    libdng_sdk.vendor
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service.software
