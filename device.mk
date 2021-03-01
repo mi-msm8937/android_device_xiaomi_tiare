@@ -25,6 +25,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5346.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5346.kl \
     $(LOCAL_PATH)/keylayout/goodix-ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix-ts.kl
 
+# Keymaster HAL
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1-service
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom
