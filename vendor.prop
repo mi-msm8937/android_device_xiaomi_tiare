@@ -1,2 +1,4 @@
 # Xiaomi tiare - Camera
 persist.camera.gyro.disable=0
+persist.vendor.camera.CDS=off
+persist.vendor.camera.video.CDS=off
