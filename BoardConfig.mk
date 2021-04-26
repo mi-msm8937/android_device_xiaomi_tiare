@@ -35,6 +35,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
+# Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Inherit from common msm8937-common
 include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
