@@ -1,0 +1,2 @@
+# Camera
+type sysfs_camera_fusion_id, fs_type, sysfs_type;
