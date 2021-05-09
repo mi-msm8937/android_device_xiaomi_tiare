@@ -16,6 +16,7 @@ TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 # Inherit from msm8937-common
 $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+$(call inherit-product, build/make/target/product/go_defaults_512.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
