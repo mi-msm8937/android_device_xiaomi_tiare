@@ -36,6 +36,9 @@ BOARD_VENDORIMAGE_SQUASHFS_COMPRESSOR := lz4
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
