@@ -2,6 +2,9 @@
 genfscon sysfs /camera_fusion_id_back	u:object_r:sysfs_camera_fusion_id:s0
 genfscon sysfs /camera_fusion_id_front	u:object_r:sysfs_camera_fusion_id:s0
 
+# DT2W
+genfscon proc /sys/dev/dt2w u:object_r:dt2w_ctrl:s0
+
 # Flashlights
 genfscon sysfs /devices/platform/soc/soc:flashlight_back/leds/flashlight        u:object_r:sysfs_leds:s0
 
