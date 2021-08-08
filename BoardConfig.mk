@@ -32,6 +32,9 @@ BOARD_VENDORIMAGE_SQUASHFS_COMPRESSOR := lz4
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
