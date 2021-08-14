@@ -1,5 +1,6 @@
 # All unpinned blobs below are extracted from Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.13.0.OCLMIXM:user/release-keys
 # jasmine Package version: jasmine V11.0.8.0.QDIMIXM
+# olive Package version: Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNCNXM:user/release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -693,3 +694,6 @@ vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 vendor/firmware/aw87329_abrcv.bin
 vendor/firmware/aw87329_drcv.bin
 vendor/firmware/aw87329_kspk.bin
+
+# Wi-Fi - from olive
+vendor/bin/wcnss_service:vendor/bin/wcnss_service_olive

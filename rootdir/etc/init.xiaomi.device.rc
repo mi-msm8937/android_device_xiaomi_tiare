@@ -1,0 +1,7 @@
+# Wi-Fi
+service wcnss-service /system/vendor/bin/wcnss_service_olive
+    override
+    class main
+    user system
+    group system wifi radio
+    oneshot
