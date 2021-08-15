@@ -6,6 +6,10 @@
 
 DEVICE_PATH := device/xiaomi/tiare
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tiare
+TARGET_RECOVERY_DEVICE_MODULES := libinit_tiare
+
 # Kernel
 TARGET_KERNEL_CONFIG := tiare_defconfig
 
