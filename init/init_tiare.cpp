@@ -8,4 +8,7 @@
 
 void vendor_load_properties() {
     set_dalvik_heap_size();
+#ifdef LIBINIT_MSM8937_MODS
+    load_mods();
+#endif
 }
