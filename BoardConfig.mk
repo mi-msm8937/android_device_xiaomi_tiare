@@ -8,6 +8,7 @@ DEVICE_PATH := device/xiaomi/tiare
 
 # Kernel
 TARGET_KERNEL_CONFIG := tiare_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG := tiare_recovery_defconfig
 
 # Partitions
 TARGET_COPY_OUT_VENDOR := vendor
