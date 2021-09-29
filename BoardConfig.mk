@@ -12,6 +12,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_tiare
 
 # Kernel
 TARGET_KERNEL_CONFIG := tiare_defconfig
+TARGET_KERNEL_RECOVERY_CONFIG := tiare_recovery_defconfig
 
 # Partitions
 TARGET_COPY_OUT_VENDOR := vendor
