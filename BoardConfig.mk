@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/xiaomi/tiare
 
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tiare
 TARGET_RECOVERY_DEVICE_MODULES := libinit_tiare
