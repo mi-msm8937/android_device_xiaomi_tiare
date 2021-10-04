@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/xiaomi/tiare
 
+# Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := tiare_defconfig
 TARGET_KERNEL_RECOVERY_CONFIG := tiare_recovery_defconfig
