@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.13.0.OCLMIXM:user/release-keys
+# All unpinned blobs below are extracted from Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.25.0.OCLMIXM:user/release-keys
 # jasmine Package version: jasmine V11.0.8.0.QDIMIXM
 
 # ACDB
