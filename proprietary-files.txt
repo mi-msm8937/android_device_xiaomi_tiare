@@ -1,5 +1,4 @@
 # All unpinned blobs below are extracted from Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.25.0.OCLMIXM:user/release-keys
-# jasmine Package version: jasmine V11.0.8.0.QDIMIXM
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -36,7 +35,6 @@ vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_General_cal.acdb
 # Camera
 lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
 vendor/bin/mm-qcamera-daemon
-vendor/lib/hw/camera.msm8937.so
 vendor/lib/libactuator_dw9763_gc8034_sunny.so
 vendor/lib/libactuator_dw9763_s5k4h7_ofilm.so
 vendor/lib/libactuator_pseudo.so
@@ -574,7 +572,6 @@ vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hi556_sunny_eeprom.so
 vendor/lib/libmmcamera_hi556_sunny.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_isp_be_stats44.so
@@ -635,14 +632,12 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_ubifocus_lib.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmpbase.so
 vendor/lib/libois_lc898122.so
 vendor/lib/liboptizoom.so
-vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
@@ -668,10 +663,6 @@ vendor/etc/camera/s5k5e8_ofilm_factory_chromatix.xml
 vendor/etc/camera/csidtg_chromatix.xml
 vendor/etc/camera/s5k4h7_ofilm_india_chromatix.xml
 vendor/etc/camera/s5k5e8_ofilm_riva_chromatix.xml
-
-# Camera watermark - from jasmine
-vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
-vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
 # Firmwares
 vendor/firmware/aw87329_abrcv.bin

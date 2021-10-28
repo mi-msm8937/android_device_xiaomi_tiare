@@ -8,15 +8,6 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/hw/camera.msm8937.so)
-            sed -i 's|libgui.so|libwui.so|g' "${2}"
-            ;;
-        vendor/lib/libmmcamera_interface.so)
-            # Direct loading this into camera.msm8937.so causes segfault
-            if ! "${PATCHELF}" --print-needed "${2}" | grep "libshims_gui.so" >/dev/null; then
-                "${PATCHELF}" --add-needed "libshims_gui.so" "${2}"
-            fi
-            ;;
         vendor/lib/libmmcamera2_iface_modules.so)
             # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
             sed -i -e 's|\xfd\xb1\x20\x68|\xfd\xb1\x00\x20|g' "${2}"
