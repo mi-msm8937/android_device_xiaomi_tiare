@@ -40,9 +40,6 @@ BOARD_VENDORIMAGE_SQUASHFS_COMPRESSOR := lz4
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.recovery.qcom
-
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 

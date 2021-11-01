@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    fstab.qcom \
     init.xiaomi.device.rc
 
 # Sensors
