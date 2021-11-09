@@ -2235,6 +2235,12 @@ typedef enum {
     CAM_INTF_META_SPOT_LIGHT_DETECT,
     /* HAL based HDR*/
     CAM_INTF_PARM_HAL_BRACKETING_HDR,
+
+    XM_UNKNOWN_01,
+    XM_UNKNOWN_02,
+    XM_UNKNOWN_03,
+    XM_UNKNOWN_04,
+    XM_UNKNOWN_05,
     CAM_INTF_PARM_MAX
 } cam_intf_parm_type_t;
 
