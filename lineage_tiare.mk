@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_mini_go_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
 
 # Inherit from tiare device
 $(call inherit-product, device/xiaomi/tiare/device.mk)
