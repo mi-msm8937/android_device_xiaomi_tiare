@@ -34,7 +34,7 @@ BOARD_VENDORIMAGE_JOURNAL_SIZE := 0
 BOARD_VENDORIMAGE_SQUASHFS_COMPRESSOR := lz4
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
@@ -43,7 +43,7 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 VENDOR_SECURITY_PATCH := 2021-01-05
 
 # Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Inherit from common msm8937-common
 include device/xiaomi/msm8937-common/BoardConfigCommon.mk
