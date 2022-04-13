@@ -39,6 +39,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/vendor.prop
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-01-05
 
