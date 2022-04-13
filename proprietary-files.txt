@@ -1,5 +1,4 @@
 # All unpinned blobs below are extracted from Xiaomi/tiare/tiare:8.1.0/OPM1.171019.026/V10.2.25.0.OCLMIXM:user/release-keys
-# olive Package version: Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNCNXM:user/release-keys
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -669,6 +668,3 @@ vendor/etc/camera/s5k5e8_ofilm_riva_chromatix.xml
 vendor/firmware/aw87329_abrcv.bin
 vendor/firmware/aw87329_drcv.bin
 vendor/firmware/aw87329_kspk.bin
-
-# Wi-Fi - from olive
-vendor/bin/wcnss_service:vendor/bin/wcnss_service_olive
