@@ -7,9 +7,6 @@
 # ConsumerIR
 TARGET_HAS_NO_CONSUMERIR := true
 
-# Gatekeeper
-TARGET_USES_DEVICE_SPECIFIC_GATEKEEPER := true
-
 # Keymaster
 TARGET_USES_DEVICE_SPECIFIC_KEYMASTER := true
 
@@ -33,7 +30,8 @@ PRODUCT_COPY_FILES += \
 
 # Keymaster HAL
 PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-service
+    android.hardware.keymaster@3.0-impl_32 \
+    android.hardware.keymaster@3.0-service.xiaomi_tiare
 
 # Sensors
 PRODUCT_COPY_FILES += \

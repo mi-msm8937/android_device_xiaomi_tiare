@@ -1,3 +1,6 @@
 # Xiaomi tiare - Camera
 persist.vendor.camera.CDS=off
 persist.vendor.camera.video.CDS=off
+
+# Xiaomi tiare - Keystore
+ro.hardware.keystore=tiare
