@@ -668,6 +668,3 @@ vendor/etc/camera/s5k5e8_ofilm_riva_chromatix.xml
 vendor/firmware/aw87329_abrcv.bin
 vendor/firmware/aw87329_drcv.bin
 vendor/firmware/aw87329_kspk.bin
-
-# Keystore
-vendor/lib/hw/keystore.msm8937.so:vendor/lib/hw/keystore.tiare.so
