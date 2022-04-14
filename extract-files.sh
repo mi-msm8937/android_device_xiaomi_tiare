@@ -29,6 +29,9 @@ function blob_fixup() {
                 exit;
             fi
             ;;
+        vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc)
+            sed -i 's|4|3|g' "${2}"
+            ;;
     esac
 }
 
