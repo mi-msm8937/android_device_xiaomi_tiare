@@ -48,5 +48,9 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 # Inherit from common msm8937-common
 include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/manifest/gatekeeper.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/manifest/keymaster.xml
+
 # Inherit from the proprietary version
 include vendor/xiaomi/tiare/BoardConfigVendor.mk
